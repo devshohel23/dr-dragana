@@ -413,7 +413,7 @@ Small Screen - Tablate
     padding-left: calc((100vw - 700px) / 2);
     padding-right: calc((100vw - 700px) / 2);
 }
-.plastic-sergery-inner {
+.instagram-post-inner {
 	padding-inline: 30px;
 }
 
@@ -550,8 +550,11 @@ Xtra Small Screen - Small Mobile
     padding-left: calc((100vw - 520px) / 2);
     padding-right: calc((100vw - 520px) / 2);
 }
-.plastic-sergery-inner {
+.instagram-post-inner {
 	padding-inline: 16px;
+}
+.map-area iframe {
+    min-height: 300px;
 }
 
 }
