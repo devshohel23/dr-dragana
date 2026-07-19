@@ -349,7 +349,7 @@ input::-webkit-inner-spin-button {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: 0px;
     width: 100%;
     height: 1px;
     background-color: var(--primarydark);
@@ -1351,4 +1351,131 @@ input::-webkit-inner-spin-button {
     min-height: 426px;
     display: block;
     margin: 0;
+}
+
+/*======= footer design =======*/
+.site-footer {
+    background-color: #F6F1EF;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer-logo img {
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #D9D0C8;
+    margin: 35px 0;
+}
+
+
+.footer-widgets {
+    padding-bottom: 60px;
+}
+
+.footer-widgets .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.footer-widgets [class^="col-"] {
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.footer-widget h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-widget h4.mt-30 {
+    margin-top: 30px;
+}
+
+.footer-widget ul li {
+    margin-bottom: 12px;
+}
+
+.footer-widget ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-widget ul li a,
+.footer-widget p,
+.footer-widget p a {
+    color: #4a4a4a;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.footer-widget ul li a:hover,
+.footer-widget p a:hover {
+    color: #B08C76;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.footer-socials a {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #C9AF9F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+    background-color: #B08C76;
+    transform: translateY(-3px);
+}
+
+/* bottom bar */
+.footer-bottom {
+    background: #B08C7680;
+    padding: 20px 0;
+}
+
+.footer-bottom-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-bottom-inner p {
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-bottom-inner p a {
+    color: #fff;
+}
+
+.footer-bottom-inner p a:hover {
+    color: var(--primarydark);
 }
