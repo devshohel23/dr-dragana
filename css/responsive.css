@@ -308,6 +308,9 @@ Medium Screen - Others
     padding-left: calc((100vw - 940px) / 2);
     padding-right: 40px;
 }
+.simple-content-block .row {
+	--bs-gutter-x: 56px;
+}
 
 
 
@@ -319,43 +322,48 @@ Nav switch point - hide desktop mega menu / show hamburger
 ====================================
 */
 @media screen and (max-width: 991px) {
-    .nav-inner .row {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: space-between;
-    }
+.nav-inner .row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    .navbar-menu {
-        display: none;
-    }
+.navbar-menu {
+    display: none;
+}
 
-    .nav-right-comp .social-menus {
-        display: none;
-    }
+.nav-right-comp .social-menus {
+    display: none;
+}
 
-    .nav-right-comp {
-        gap: 14px;
-    }
+.nav-right-comp {
+    gap: 14px;
+}
 
-    .mobile-menu-toggle {
-        display: flex;
-    }
+.mobile-menu-toggle {
+    display: flex;
+}
 
-    .logo-box img {
-        max-width: 70px;
-    }
+.logo-box img {
+    max-width: 70px;
+}
 
-    .hero-video-wrapper {
-        padding-top: 70px;
-    }
-    .featured-logo-grid {
-        margin-bottom: 24px;
-    }
-    .footer-widgets [class^="col-"] {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+.hero-video-wrapper {
+    padding-top: 70px;
+}
+.header-minus {
+    min-height: 70px;
+}
+
+.featured-logo-grid {
+    margin-bottom: 24px;
+}
+.footer-widgets [class^="col-"] {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
 }
 
 @media screen and (min-width: 1199px) {
@@ -419,6 +427,26 @@ Small Screen - Tablate
 }
 .instagram-post-inner {
 	padding-inline: 30px;
+}
+/* Breast Augmentation start here */
+.ba-banner-area {
+    min-height: 410px;
+}
+.simple-content-block .row {
+  --bs-gutter-x: 35px;
+}
+
+.types-ba-card {
+    padding: 28px 24px;
+}
+.benefits-cta-inner {
+    padding: 50px 32px;
+}
+.nav-right-comp .btn-primary {
+    font-size: 12px;
+}
+.contact-right img {
+	height: auto;
 }
 
 }
@@ -484,13 +512,6 @@ Xtra Small Screen - Small Mobile
 }
 .single-ps-card .discover-all a {
 	font-size: 15px;
-}
-.single-ps-card .invisible-content {
-    opacity: 1;
-    transform: translateY(0px);
-}
-.single-ps-card .card-overlay {
-    opacity: 1;
 }
 .py-70 {
 	padding-block: 40px;
@@ -597,6 +618,110 @@ Xtra Small Screen - Small Mobile
 .footer-bottom-inner p {
 	font-size: 14px;
 }
+/* Breast Augmentation start here */
+.ba-banner-area {
+    min-height: 280px;
+}
+.ba-banner-inner h1 {
+	font-size: 26px;
+}
+.ba-single-content-block {
+    font-size: 16px;
+}
+
+ .types-of-ba-wp .section-heading-wrapper {
+    margin-bottom: 28px;
+}
+.types-ba-card {
+    padding: 24px 20px;
+}
+.types-ba-card h3 {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.types-ba-card ul li {
+    font-size: 14px;
+}
+.types-of-ba-wp .section-heading-wrapper .section-heading {
+	padding-bottom: 8px;
+}
+.types-of-ba-wp .section-subheading {
+	font-size: 16px;
+}
+.types-ba-card ul {
+	gap: 8px;
+}
+.simple-content-block .row {
+	--bs-gutter-x: 0px;
+}
+.who-is-right {
+	gap: 14px;
+}
+
+.faq-area .section-heading {
+    padding-bottom: 26px;
+    font-size: 22px;
+}
+.faq-trigger {
+    padding: 16px 18px;
+    font-size: 13px;
+}
+.faq-body {
+    padding: 0 18px 18px;
+}
+.faq-body p {
+    font-size: 14px;
+}
+.faq-area {
+    padding-top: 20px;
+}
+
+.benefits-cta-wp {
+    padding-block: 30px;
+}
+.benefits-cta-inner {
+    padding: 36px 20px;
+    border-radius: 14px;
+}
+.benefits-cta-inner h2 {
+    font-size: 22px;
+}
+.benefits-cta-inner p {
+    font-size: 15px;
+}
+.benefits-cta-button {
+    padding-top: 22px;
+}
+.benefits-cta-wp {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.faq-area {
+    padding-bottom: 10px;
+}
+.logo-box {
+    margin-left: -20px;
+}
+.nav-right-comp .btn-primary {
+    padding: 13px 22px;
+	font-size: 13px;
+}
+
+.nav-right-comp .nav-right-menu {
+	display: block;
+}
+.contact-right img {
+	height: auto;
+}
+.scrolltotop {
+    display: none !important;
+}
+.featured-right-slider {
+    padding-right: 16px;
+}
+.blog-img img {
+    width: 100%;
+}
 
 }
 
@@ -627,6 +752,12 @@ Xtra Small Screen - Small Mobile
 }
 .contact-left .single-input {
 	padding-bottom: 10px;
+}
+.types-of-ba-wp .section-heading {
+	font-size: 19px;
+}
+.types-of-ba-wp .section-subheading {
+	font-size: 14px;
 }
 
 }

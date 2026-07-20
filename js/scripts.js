@@ -139,9 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	})();
 
 
-
-
-
 	var swiper = new Swiper(".after-before-silder", {
 		loop: true,
 		centeredSlides: true,
@@ -168,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// featured section slider js
 	const featuredInSwiper = new Swiper('.featured-in-slider', {
-		slidesPerView: 1.4,
+		slidesPerView: 1,
 		spaceBetween: 12,
 		loop: true,
 		centeredSlides: false,
